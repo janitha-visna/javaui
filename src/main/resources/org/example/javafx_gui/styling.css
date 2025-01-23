@@ -1,0 +1,23 @@
+/* Default button style */
+.button {
+    -fx-background-color: #282528;   /* Dark background color */
+    -fx-background-radius: 5em;     /* Rounded background with 5em radius */
+}
+
+/* Button hover style */
+.button:hover {
+    -fx-background-color: #393739;  /* Slightly lighter background on hover */
+}
+
+/* Button pressed style */
+.button:pressed {
+    -fx-background-color: #150000;  /* Dark red background when pressed */
+    -fx-background-radius: 5em;    /* Keep rounded corners consistent */
+}
+
+/* Button focused style */
+.button:focused {
+    -fx-background-color: #150000; /* Dark red background */
+    -fx-border-color: #150000;     /* Matching border color */
+    -fx-background-radius: 5em;   /* Keep rounded corners consistent */
+}
